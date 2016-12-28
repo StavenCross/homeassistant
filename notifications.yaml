@@ -1,0 +1,15 @@
+automation:
+  - alias: test_notification
+    trigger:
+      - platform: state
+        entity_id: sensor.notify_test
+    action:
+      - service: notify.nfandroidtv
+        data:
+          title: TestNotification
+          message: This is a test notification
+          position: center
+          duration: 2
+          transparency: 0%
+          color: red
+          interrupt: 0

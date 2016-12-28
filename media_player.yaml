@@ -1,0 +1,10 @@
+  #Bravia TV
+- platform: braviatv
+  host: 192.168.0.6
+  name: MyBravia
+  #Google Music on Laptop
+- platform: gpmdp
+  host: 192.168.0.3
+  name: Google Music
+  #Plex
+- platform: plex
